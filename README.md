@@ -11,6 +11,8 @@ This mathematical equation estimates the theoretical value of derivatives based 
 
 ### Implementing the Black-Scholes Formula
 
+![alt text](https://github.com/ruquaya1/Black-Scholes/blob/main/Black%20Scholes%20Formula%20.jpg)
+
 ##### Import Libraries
 ```
 import numpy as np
