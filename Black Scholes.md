@@ -3,23 +3,18 @@
 
 # Implementing the Black-Scholes formula
 
-'''
+
 import numpy as np
 from scipy.stats import norm
-'''
 
-### define variables
+# define variables
 
-'''
 r = 0.01     #Interest Rate
 S = 30       #underlying price
 K = 40       #strike price
 T = 240/365  #time
 sigma = 0.30
-'''
 
-
-'''
 def blackscholes(r, S, K, T, sigma, type="C"):
     "Calculate BS option price for a call/put"
     d1 = (np.log(S/K) + (r + sigma**2/2)*T)/(sigma*np.sqrt(T))
@@ -34,7 +29,6 @@ def blackscholes(r, S, K, T, sigma, type="C"):
         print("Please confirm all option parameters above!!!")
         
 print("Option Price is:", round(blackscholes(r, S, K, T, sigma, type="C"), 2))        
-'''
 
 
 
